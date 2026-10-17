@@ -1,0 +1,3 @@
+{"name":"examguard-api","version":"1.0.0","private":true,"type":"module","engines":{"node":">=20"},
+ "scripts":{"start":"node server.js","seed":"node scripts/seed.js"},
+ "dependencies":{"cors":"^2.8.5","express":"^4.19.2","express-rate-limit":"^7.4.0","firebase-admin":"^12.6.0","helmet":"^7.1.0"}}

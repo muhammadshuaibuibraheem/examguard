@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ExamGuard Medical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js"></script>
+<script src="config.js"></script>
+<script>if((window.EGM_CONFIG||{}).mode==='api')document.write('<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"><\/script><script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"><\/script>')</script>
+<script src="https://cdn.jsdelivr.net/npm/@zxing/library@0.21.3/umd/index.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+</head><body>
+<canvas id="pc" aria-hidden="true"></canvas>
+<div id="splash" role="img" aria-label="ExamGuard Medical"><svg class="sv" viewBox="0 0 120 120" fill="none"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#0e7490"/></linearGradient></defs><g class="gl" stroke="#20E3CF" stroke-opacity=".3"><path d="M10 40h100M10 80h100M40 10v100M80 10v100"/></g><path class="sf" d="M60 14l34 12v26c0 22-14 38-34 46-20-8-34-24-34-46V26z" fill="url(#g)"/><path class="so" d="M60 14l34 12v26c0 22-14 38-34 46-20-8-34-24-34-46V26z" stroke="#20E3CF" stroke-width="2.500" stroke-linejoin="round"/><g class="qd" fill="#20E3CF"><rect x="42" y="34" width="6" height="6"/><rect x="72" y="34" width="6" height="6"/><rect x="42" y="76" width="6" height="6"/></g><path class="tk" d="M45 58l11 11 20-22" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="wm" aria-hidden="true"><span style="--i:0">E</span><span style="--i:1">X</span><span style="--i:2">A</span><span style="--i:3">M</span><span style="--i:4">G</span><span style="--i:5">U</span><span style="--i:6">A</span><span style="--i:7">R</span><span style="--i:8">D</span></div><div class="sub">MEDICAL EXAMINATION INTELLIGENCE</div><i class="ln"></i><div class="bar"><i></i></div><footer>From DanjSoft</footer></div>
+<div id="app"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body></html>
